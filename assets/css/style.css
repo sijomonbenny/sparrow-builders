@@ -200,6 +200,28 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 70px;
 }
 
+#main {  
+  text-align: center;
+}
+
+.choose-head {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.choose-head h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -441,7 +463,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#hero {  
   width: 100%;
   height: 75vh;
   background: url("../img/hero-bg.jpg") top left;
@@ -1617,7 +1639,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
+  background:#106eea;
   padding: 0 0 30px 0;
   color: #444444;
   font-size: 14px;
@@ -1676,8 +1698,9 @@ section {
 }
 
 #footer .footer-top {
+  color: #fff;
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #106eea;
 }
 
 #footer .footer-top .footer-contact {
@@ -1701,18 +1724,18 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: #777777;
+  color: rgb(228, 237, 255);
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
 
-#footer .footer-top .footer-links {
+#footer .footer-top .footer-links {  
   margin-bottom: 30px;
 }
 
@@ -1740,7 +1763,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+ color: #fff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1748,7 +1771,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #106eea;
+  color: #8ebaf3;
 }
 
 #footer .footer-top .social-links a {
